@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{0603DCA2-4D03-273E-B975-3AB0F5382A48}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "GAM_415_FinalProject",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	]
+}
