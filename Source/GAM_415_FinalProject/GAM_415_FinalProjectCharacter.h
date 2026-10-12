@@ -48,6 +48,9 @@ class AGAM_415_FinalProjectCharacter : public ACharacter
 public:
 	AGAM_415_FinalProjectCharacter();
 
+	UPROPERTY(EditAnywhere)
+		bool isTeleporting;
+
 protected:
 	/** Called for movement input */
 	void Move(const FInputActionValue& Value);
