@@ -48,6 +48,7 @@ void APerlinProcTerrain::AlterMesh(FVector impactPoint)
 	}
 }
 
+//With the triangles, creates more vertices
 void APerlinProcTerrain::CreateVertices()
 {
 	for (int X = 0; X <= XSize; X++)
@@ -62,6 +63,8 @@ void APerlinProcTerrain::CreateVertices()
 	}
 }
 
+
+//Procedural Generation for Triangles
 void APerlinProcTerrain::CreateTriangle()
 {
 	int Vertex = 0;
